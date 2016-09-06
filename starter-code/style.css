@@ -5,6 +5,7 @@ body {
 .board {
 	height: 50%;
 	width: 50%;
+	margin: 0 auto;
 }
 .card {
 	height: 200px;
@@ -15,6 +16,10 @@ body {
 	display: inline-block;
 	margin: 8%;
 	float: left;
+}
+.card img {
+	height: 200px;
+	width: 150px;
 }
 h1 {
 	color: rgb(2, 132, 130);
