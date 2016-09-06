@@ -1,16 +1,18 @@
 
 body {
 	text-align:center;
+	font-family:'Ubuntu', sans-serif;
 }
 .board {
 	height: 50%;
 	width: 50%;
 	margin: 0 auto;
+	background:#fff;
 }
 .card {
 	height: 200px;
 	width: 150px;
-	border: 1px solid #000;
+	border: 1px solid #ffbf00;
 	background: #ffff00;
 	border-radius: 20px;
 	display: inline-block;
@@ -21,18 +23,39 @@ body {
 	height: 200px;
 	width: 150px;
 }
+.scoreBoard {
+	padding: 10px;
+	margin: 10px auto;
+	border-radius:20px;
+	background:#ffbf00;
+}
 h1 {
 	color: rgb(2, 132, 130);
+	font-size: 36px;
 }
 h2 {
 	color: #ffd700;
+	font-size: 24px;
+}
+h3 { 
+	font-size: 22px;
+	color:#808080;
+}
+p {
+	color:#000;
+	font-size:16px;
 }
 .name {
-	color:#ff0000;
+	color:#ffbf00;
+	font-weight:bold;
+	font-size:30px;
+	font-family: 'Parisienne', cursive;
+	padding: 5px;
 }
 footer {
 	clear:both;
 	background: #808080;
+	color:#fff;
 }
 nav {
 	background:#808080;
