@@ -8,7 +8,6 @@ function createBoard() {
 		newCard.className = 'card'; 
 		newCard.setAttribute('data-card', cards[i]);
 		newCard.addEventListener('click', isTwoCards);
-//  		newCard.addEventListener('click', flipCheck);
 		board.appendChild(newCard);
 	}
 }
@@ -23,7 +22,7 @@ function isTwoCards() {
 		this.innerHTML = '<img src="king-hearts.png" alt="King of Hearts" />';
 	} 
 	if (cardsInPlay.length === 2) {
-		setTimeout('isMatch(cardsInPlay)',200);
+		isMatch(cardsInPlay);
 		cardsInPlay = []; 
 	} 
 }
