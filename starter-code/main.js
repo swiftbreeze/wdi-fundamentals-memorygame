@@ -22,13 +22,13 @@ function isTwoCards() {
 		this.innerHTML = '<img src="king-hearts.png" alt="King of Hearts" />';
 	} 
 	if (cardsInPlay.length === 2) {
-		isMatch(cardsInPlay);
+		setTimeout(isMatch.bind(null, cardsInPlay),200);
 		cardsInPlay = []; 
 	} 
 }
 
-
-function isMatch(){
+                   
+function isMatch(cardsInPlay){
 	if (cardsInPlay[0] === cardsInPlay[1]) {
 		alert("You found a match!");
 		score += 1;
