@@ -2,12 +2,17 @@
 body {
 	text-align:center;
 	font-family:'Ubuntu', sans-serif;
+	width:80%;
+	margin: 0 auto;
+}
+.board-box {
+	margin: 50px auto;
+	border-radius:20px;
+	background:#808080;
 }
 .board {
 	height: 50%;
 	width: 50%;
-	margin: 0 auto;
-	background:#fff;
 }
 .card {
 	height: 200px;
@@ -25,13 +30,17 @@ body {
 }
 .scoreBoard {
 	padding: 10px;
-	margin: 10px auto;
-	border-radius:20px;
-	background:#ffbf00;
+	margin: 0px auto;
+	float:right;
+	width:45%;
+}
+.highlight {
+	color:#fff;
 }
 h1 {
 	color: rgb(2, 132, 130);
-	font-size: 36px;
+	font-size: 80px;
+	font-family: 'Parisienne', cursive;
 }
 h2 {
 	color: #ffd700;
@@ -39,7 +48,7 @@ h2 {
 }
 h3 { 
 	font-size: 22px;
-	color:#808080;
+	color:#ffbf00;
 }
 p {
 	color:#000;
@@ -47,7 +56,6 @@ p {
 }
 .name {
 	color:#ffbf00;
-	font-weight:bold;
 	font-size:30px;
 	font-family: 'Parisienne', cursive;
 	padding: 5px;

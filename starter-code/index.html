@@ -7,24 +7,30 @@
 </head>
 <body>
   <nav class="clearfix">
-    <a href="#">Instructions</a>
-    <a href="#">Game</a>      
+    <a href="#instructions">Instructions</a>
+    <a href="#game-board">Game</a>      
   </nav>
   <hr>
   <h1>Memory Game</h1>
-  <h2>Instructions</h2>
-  <p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>
-  <div class="scoreBoard" id="score-board">
-    <h3>Game Stats<h3>
-      <p>Played: <span id="played">0</span>&nbsp;&nbsp;|&nbsp;&nbsp;Won: <span id="score">0</span></p>
-      <button id="reset">Reset stats</button> 
+  <h2 id="instructions">Instructions</h2>
+  <p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn.</p>
+  <p>The object of the game is to turn over pairs of matching cards.</p>
+
+  
+  <div class="board-box clearfix">
+    <div class="scoreBoard" id="score-board">
+      <h3>Game Stats</h3>
+      <hr />
+      <p>Played: <span id="played" class="highlight">0</span></p>
+      <p>Won: <span id="score" class="highlight">0</span></p>
+      <button id="reset">Reset stats</button>
     </div>
-    
-    <div class="board" id="game-board">
+    <div class="board clearfix" id="game-board">
     </div>
-    <footer>
-      <p>Created with <span class="heart">&#9825;</span> by <span class="name">Caroline</span></p>
-    </footer>
-    <script src="main.js"></script>
-  </body>
-  </html>
+  </div>
+  <footer>
+    <p>Created with <span class="heart">&#9825;</span> by <span class="name">Caroline</span></p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
